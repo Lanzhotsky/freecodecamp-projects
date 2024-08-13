@@ -2,7 +2,7 @@
 
 This repository contains the projects and exercises I completed as part of my journey through the freeCodeCamp.org web development certifications. It includes work in HTML, CSS, JavaScript, and more.
 
-## Certifications
+## Projects
 
 ### Responsive Web Design
 - **Cat Photo App**: Using HTML tags to add photos, buttons, and other elements to a webpage.
