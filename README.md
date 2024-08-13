@@ -2,18 +2,13 @@
 
 This repository contains the projects and exercises I completed as part of my journey through the freeCodeCamp.org web development certifications. It includes work in HTML, CSS, JavaScript, and more.
 
-## Projects
+## Certifications
 
 ### Responsive Web Design
-- **Cat Photo App**: Using HTML tags to add photos, buttons, and other elements to a webpage. [View Project](link-to-project)
-- **Survey Form**: A responsive form built with HTML and CSS. [View Project](link-to-project)
-
-### JavaScript Algorithms and Data Structures
-
-## How to Use
-1. Clone this repository: `git clone https://github.com/your-username/your-repo-name.git`
-2. Navigate to the project directory.
-3. Open the HTML files in your browser to view the projects.
+- **Cat Photo App**: Using HTML tags to add photos, buttons, and other elements to a webpage.
+- **Cafe Menu**: Using HTML and CSS to create a menu for a coffee shop.
+- **Colored Markers**: Using HTML and CSS to learn about the different ways to apply colors and styles to a webpage.
+- **Registration Form**: Using HTML and CSS to create a registration form.
 
 ## Technologies Used
 - HTML
