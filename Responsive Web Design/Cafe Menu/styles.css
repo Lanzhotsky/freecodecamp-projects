@@ -1,0 +1,99 @@
+h1,h2,p {
+text-align: center;
+}
+body {
+    /* background-color: burlywood; */
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+    /*Changes the font family*/
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* It is more common to use class selectors to style elements. 
+The id selector (#menu) targets a specific element with an id attribute, but the class selector uses a dot infront of the name */
+.menu {
+    width: 80%;
+    /* using the #menu selector to set the background color fo the div element applies it only to the menu div
+    instead of the whole page*/
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    /*Padding creates space around the text*/
+    padding: 20px;
+    /*Max width prevents the width of the menu from growing too wide on large monitors */
+    max-width: 500px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*Negative margin brings the icon up closer to the h2 element text*/
+    margin-top: -25px;
+  }
+  hr { 
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  /*sets the h1 and h2 heading to Impact fon and a fall back to serif font*/
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top:0;
+    margin-bottom:15px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .established {
+    font-style: italic
+  }
+  /* This sets the classes named (flavor and dessert) to align to the left*/
+  .flavor, .dessert {
+    text-align: left;
+    /*Styling the p elements as inline-block and placing them on separate lines in the code creates an extra space to the right
+     of the first p element, causing the second one to shift to the next line. 
+     One way to fix this is to make each p element's width a little less than 50%. The other is to place the p elements on the same line
+     in the html code*/
+    width: 75%;
+  }
+  .price{
+    text-align: right;
+    /*here we can set the width to 25% since the price is a fewer characters*/
+    width: 25%;
+  }
+  /* This styles the p element nested anywhere in elements with a class named item */
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .bottom-line {
+    margin-top: 25px;
+  }
+
+/*FOOTER*/
+  footer {
+    font-size:14px;
+    }
+  .address {
+    margin-bottom: 5px;
+  }
+  /*changes footer link to black*/
+  a {
+    color: black;
+    }
+  /*changes link to black when already visited*/  
+  a:visited { 
+    color: black; 
+    }
+  /*changes link to brown when mouse hovers over the text*/
+  a:hover {
+    color: brown;
+    }
+  /*changes link to brown when clicking*/  
+  a:active {
+    color: brown;
+    }
