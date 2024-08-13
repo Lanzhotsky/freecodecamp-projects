@@ -1,4 +1,4 @@
-# freeCodeCamp Web Development Projects
+# FreeCodeCamp.org Web Development Projects
 
 This repository contains the projects and exercises I completed as part of my journey through the freeCodeCamp.org web development certifications. It includes work in HTML, CSS, JavaScript, and more.
 
