@@ -1,0 +1,88 @@
+/* Sets the overall background color of the webpage and the text color for readability */
+body {
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+/* Centers the h1 and p elements horizontally */
+h1, p {
+    text-align: center;
+}
+
+/* Reduces the bottom margin for the h1 element to make it closer to the content below */
+h1 {
+    margin-bottom: .5rem;
+}
+
+/* Styles the form to be centered on the page with a maximum and minimum width, background color, padding, border, shadow, and rounded corners */
+form {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgb(54, 54, 54);
+    padding: 1rem;
+    border: .2rem solid rgba(255, 255, 255, 0.3);  /* Semi-transparent border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);  /* Adds a shadow for depth */
+    border-radius: 1rem;  /* Rounds the corners of the form */
+}
+
+/* Makes label elements block-level (on separate lines) with margin for spacing */
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Styles fieldset elements with margin, white border, rounded corners */
+fieldset {
+    margin-bottom: 1rem;
+    border-color: white;
+    border-style: none;
+}
+
+/* Styles input and textarea with full width, spacing, and rounded corners*/
+input, textarea {
+    width: 100%;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 1.5rem;
+}
+select {
+    width: 100%;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 1.75rem;
+    text-align: center;  /* Centers the text within these elements */
+}
+
+/* Removes the default width for inline elements, applies margin, and vertically centers them */
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;  /* Aligns the inline elements vertically in the middle */
+}
+
+/* Styles the legend element to be bold, left-aligned, and full-width */
+legend {
+    font-weight: bold;
+    float: left;
+    margin-bottom: .5em;
+    width: 100%;
+}
+
+/*This styles the submit button by targetting the type attribute*/
+input[type="submit"]{
+    display: block;
+    width: 25%;
+    min-width: 200;
+    margin: .5em auto .5em auto;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border-radius: 15px;  /* Rounds the corners of the submit button */
+}

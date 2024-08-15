@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies the character encoding for the HTML document -->
+    <meta charset="UTF-8">
+    
+    <!-- Sets the viewport to ensure the page is responsive on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- The title of the webpage, displayed on the browser tab -->
+    <title>New Product Survey</title>
+    
+    <!-- Links an external CSS file named "styles.css" for styling the HTML document -->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!-- The main heading of the survey form, identified by the ID "title" -->
+    <h1 id="title">New Product Survey Form</h1>
+    
+    <!-- A descriptive paragraph under the main heading, identified by the ID "description" -->
+    <p id="description">Help us bring new products to the world!</p>
+  
+    <!-- The form element, with an ID "survey-form", which will contain all the input fields for the survey -->
+    <!-- The form would usually have an action and method attribute like this: 
+         <form action="https://register-demo.freecodecamp.org" method="post"> 
+         but it's omitted here for simplicity. -->
+    <form id="survey-form">
+    
+        <!-- Fieldset groups related fields within the form for better organization -->
+        <fieldset>
+            <!-- A label for the name input field, with the ID "name-label" for easy reference -->
+            <!-- The input field is of type "text", requires a value, and has a placeholder for user guidance -->
+            <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+            
+            <!-- A label for the email input field, with the ID "email-label" for easy reference -->
+            <!-- The input field is of type "email", requires a value, and has a placeholder for user guidance -->
+            <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+            
+            <!-- A label for the age input field, with the ID "number-label" for easy reference -->
+            <!-- The input field is of type "number", with optional input, and has min and max limits -->
+            <label for="number" id="number-label">Age (Optional) <input id="number" type="number" placeholder="Enter your age" min="13" max="120"></label>
+        </fieldset>
+        
+        <!-- A fieldset for the dropdown selection, allowing users to choose the next product they want -->
+        <fieldset>
+            <!-- A legend to describe the purpose of this group of form elements -->
+            <legend>What would you like us to make next?</legend>
+            
+            <!-- A dropdown select menu with various options for the user to choose from -->
+            <select id="dropdown" name="dropdown">
+                <option value="">(Please select one)</option>
+                <option value="1">More types of clothing</option>
+                <option value="2">Footware</option>
+                <option value="3">Accessories</option>
+                <option value="4">Stickers</option>
+                <option value="5">Toys</option>
+            </select>
+        </fieldset>
+        
+        <!-- A fieldset for radio buttons, allowing users to select whether they are a new or existing customer -->
+        <fieldset>
+            <legend>Are you a new or an existing customer?</legend>
+            
+            <!-- Two radio buttons for user selection with inline styling -->
+            <label for="customer-type"></label><input class="inline" name="customer-type" type="radio" value="existing-customer"> New Customer</label>
+            <label for="customer-type"></label><input class="inline" name="customer-type" type="radio" value="existing-customer"> Existing Customer</label>
+        </fieldset>
+        
+        <!-- A fieldset for checkboxes, allowing users to indicate how they heard about the brand -->
+        <fieldset>
+            <legend>How did you hear about us?</legend>
+            
+            <!-- Checkboxes for multiple selections with inline styling -->
+            <label for="instagram"><input class="inline" value="instagram" type="checkbox" name="instagram"> Instagram</label>
+            <label for="friend"><input class="inline" value="friend" type="checkbox" name="friend"> Friend</label>
+            <label for="google"><input class="inline" value="google" type="checkbox" name="google"> Google</label>
+            <label for="wild"><input class="inline" value="wild" type="checkbox" name="wild"> Saw your brand in the wild!</label>
+        </fieldset>
+        
+        <!-- A fieldset containing a textarea for additional comments or feedback -->
+        <fieldset>
+            <legend>Anything else you would like to share?</legend>
+            <textarea placeholder=" This is my favorite brand ever..."></textarea>
+        </fieldset>
+        
+        <!-- A submit button to send the form data -->
+        <input id="submit" type="submit" value="Submit it!"/>
+    </form>
+    
+</body>
+</html>
