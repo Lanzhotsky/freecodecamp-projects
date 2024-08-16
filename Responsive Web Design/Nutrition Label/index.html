@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrition Label</title>
+    
+    <!-- Links to a Google Font ("Open Sans") with specified font weights (400, 700, 800) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Main container div that holds the entire nutrition label content -->
+    <div class="label">
+      
+        <!-- Header section for the nutrition label, containing the title and serving information -->
+        <header>
+            <!-- Main heading for the nutrition label, styled with the class "bold" for emphasis -->
+            <h1 class="bold">Nutrition Facts</h1>
+            
+            <!-- Divider element to visually separate sections, styled via CSS -->
+            <div class="divider"></div>
+            
+            <!-- Paragraphs displaying the number of servings and serving size information -->
+            <p>8 servings per container</p>
+            <p class="bold">Serving size <span>2/3 cup (55g)</span></p>
+        </header>
+        
+        <!-- A larger divider for additional spacing and section separation -->
+        <div class="divider large"></div>
+        
+        <!-- Section displaying calories per serving -->
+        <div class="calories-info">
+            <!-- Container for the "Amount per serving" label and "Calories" text -->
+            <div class="left-container">
+                <h2 class="bold small-text">Amount per serving</h2>
+                <p>Calories</p>
+            </div>
+            <!-- Display the calorie count -->
+            <span>230</span>
+        </div>
+        
+        <!-- Medium-sized divider to separate the calorie section from the daily value information -->
+        <div class="divider medium"></div>
+        
+        <!-- Section displaying the daily value percentages for various nutrients -->
+        <div class="daily-value small-text">
+            <!-- Paragraph showing "% Daily Value" label aligned to the right -->
+            <p class="bold right no-divider">% Daily Value *</p>
+            <div class="divider"></div>
+            
+            <!-- List of nutrients with their amounts and daily value percentages -->
+            <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold">10%</span></p>
+            <p class="indent no-divider">Saturated Fat 1g <span class="bold">5%</span></p>
+            <div class="divider"></div>
+            <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p>
+            <div class="divider"></div>
+            <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p>
+            <p><span><span class="bold">Sodium</span> 160mg</span> <span class="bold">7%</span></p>
+            <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="bold">13%</span></p>
+            <p class="indent no-divider">Dietary Fiber 4g</p>
+            <div class="divider"></div>
+            <p class="indent no-divider">Total Sugars 12g</p>
+            <div class="divider double-indent"></div>
+            <p class="double-indent no-divider">Includes 10g Added Sugars <span class="bold">20%</span></p>
+            <div class="divider"></div>
+            <p class="no-divider"><span><span class="bold">Protein</span> 3g</span></p>
+            
+            <!-- Larger divider to separate the daily value section from the vitamin/mineral section -->
+            <div class="divider large"></div>
+            
+            <!-- List of vitamins and minerals with their daily value percentages -->
+            <p>Vitamin D 2mcg <span>10%</span></p>
+            <p>Calcium 260mg <span>20%</span></p>
+            <p>Iron 8mg <span>45%</span></p>
+            <p class="no-divider">Potassium 235mg <span>6%</span></p>
+        </div>
+        
+        <!-- Medium-sized divider before the note at the bottom of the label -->
+        <div class="divider medium"></div>
+        
+        <!-- A note explaining what the % Daily Value means -->
+        <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+            diet. 2,000 calories a day is used for general nutrition advice.</p>
+    </div>
+</body>
+
+</html>
